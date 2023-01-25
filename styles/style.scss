@@ -55,19 +55,24 @@ body{
     justify-content: center;
     height: 90vh;
     text-align: center;
-   
+    width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/shaking\ hands-min.jpg');
+  background-size: cover;
     .marginDiv{
-        margin-top: 30vh;
+        margin-top: 25vh;
     .homePage-content{
-        
+        color: #fff;
         margin: 0 auto;
-        width: 70%;
+        width: 80%;
         
         .mainHome-title{
-
+            font-size: 3rem;
+            margin-bottom:40px;
         }
         .headerMeaning-quote{
-
+            font-size: 1.3rem;
+            font-weight: 100;
+            
         }
     }
 }
