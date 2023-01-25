@@ -1,0 +1,50 @@
+*::after, *::before, * {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.navbarContainer {
+  background-color: #555;
+  padding: 15px 0 15px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbarContainer .branding .brand {
+  font-size: 2.7rem;
+  color: #ddd;
+}
+.navbarContainer .navbarLink-container .navbar .navBar-elements-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navbarContainer .navbarLink-container .navbar .navBar-elements-container .element {
+  list-style: none;
+  margin-right: 40px;
+}
+.navbarContainer .navbarLink-container .navbar .navBar-elements-container .element a {
+  text-decoration: none;
+  color: #ddd;
+}
+
+.homePage-container {
+  background-color: #555;
+  display: grid;
+  justify-content: center;
+  height: 90vh;
+  text-align: center;
+}
+.homePage-container .marginDiv {
+  margin-top: 30vh;
+}
+.homePage-container .marginDiv .homePage-content {
+  margin: 0 auto;
+  width: 70%;
+}/*# sourceMappingURL=style.css.map */
