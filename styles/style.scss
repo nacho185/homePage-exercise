@@ -27,6 +27,18 @@ body{
         }
         .navbarLink-container{
             .navbar{
+                .checkbtn{
+                    font-size: 30px;
+                    color: #fff;
+                    float: right;
+                    line-height: 80px;
+                    margin-right: 40px;
+                    cursor: pointer;
+                    display: none;
+                }
+                #check{
+                    display: none;
+            }
                 .navBar-elements-container{
                     display: flex;
                     flex-direction: row;
@@ -78,3 +90,45 @@ body{
 }
 }
 //end homepage
+//media queries
+
+@media (max-width:700px) {
+    .navbarLink-container {
+        
+    }
+    .checkbtn{
+        display: block !important;
+    }
+    .navBar-elements-container{
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        text-align: center !important;
+        display: block !important;
+        /*
+        flex-direction: column !important;
+        justify-content:space-between;*/
+        transition: all .5s;
+        
+        li{
+            display: block;
+            margin: 50px 0;
+            line-height: 30px;
+            a{
+                font-size: 20px;
+                a:hover,a.active{
+                    background: none;
+                    color: 0082e6;
+                }
+            }
+            
+        }
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+}
+//end media queries

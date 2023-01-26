@@ -20,6 +20,18 @@ body {
   font-size: 2.7rem;
   color: #ddd;
 }
+.navbarContainer .navbarLink-container .navbar .checkbtn {
+  font-size: 30px;
+  color: #fff;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+.navbarContainer .navbarLink-container .navbar #check {
+  display: none;
+}
 .navbarContainer .navbarLink-container .navbar .navBar-elements-container {
   display: flex;
   flex-direction: row;
@@ -59,4 +71,39 @@ body {
 .homePage-container .marginDiv .homePage-content .headerMeaning-quote {
   font-size: 1.3rem;
   font-weight: 100;
+}
+
+@media (max-width: 700px) {
+  .checkbtn {
+    display: block !important;
+  }
+  .navBar-elements-container {
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    text-align: center !important;
+    display: block !important;
+    /*
+    flex-direction: column !important;
+    justify-content:space-between;*/
+    transition: all 0.5s;
+  }
+  .navBar-elements-container li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  .navBar-elements-container li a {
+    font-size: 20px;
+  }
+  .navBar-elements-container li a a:hover, .navBar-elements-container li a a.active {
+    background: none;
+    color: 82000000;
+  }
+  #check:checked ~ ul {
+    left: 0;
+  }
 }/*# sourceMappingURL=style.css.map */
