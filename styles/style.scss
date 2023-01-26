@@ -130,5 +130,12 @@ body{
     #check:checked ~ ul{
         left: 0;
     }
+    .mainHome-title{
+        font-size: 38px !important;
+        
+    }
+    .headerMeaning-quote{
+        font-size: 15px !important;
+    }
 }
 //end media queries
