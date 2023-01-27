@@ -90,6 +90,35 @@ body{
 }
 }
 //end homepage
+
+//section03-mainpage-section03
+.section03-mainpage-section03{
+    .fontAnd-discriptions-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 50px;
+        margin: 0 auto;
+        width: 90%;
+        .fontAnd-discriptions{
+            text-align: center;
+            
+            .fontAnd-description-img{
+                height: 80px;
+                margin-top: 80px;
+            }
+            .fontAnd-description-header{
+                font-size: 20px;
+                margin: 25px 0 25px 0;
+            }
+            .fontAnd-description-paragrapht{
+                font-size: 15px;
+                margin-bottom: 100px;
+            }
+        }
+    }
+}
+//section03-mainpage-section03END
+
 //media queries
 
 @media (max-width:700px) {
