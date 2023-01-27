@@ -135,6 +135,51 @@ body {
   margin-bottom: 20px;
   font-size: 25px;
 }
+@media (max-width: 1280px) {
+  .imageAnd-paragraph-section03 {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    text-align: center !important;
+  }
+  .imageAndparagraph-pair {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .section03Header-and-paragraph-header {
+    margin-top: 50px;
+  }
+  .section3Header-and-paragraph2 {
+    margin-bottom: 80px;
+  }
+  .fontAnd-discriptions-container {
+    grid-template-columns: 1fr 1fr !important;
+  }
+}
+@media (max-width: 920px) {
+  .fontAnd-discriptions-container {
+    grid-template-columns: 1fr !important;
+  }
+}
+@media (max-width: 540px) {
+  .section03div2-img {
+    height: 250px !important;
+    width: auto !important;
+  }
+  .section03-mainpage-section03 {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  .section03Header-and-paragraph-paragraph {
+    font-size: 14px;
+  }
+}
+@media (max-width: 460px) {
+  .section03div2-img {
+    height: 150px !important;
+    width: auto !important;
+  }
+}
 @media (max-width: 700px) {
   .checkbtn {
     display: block !important;
