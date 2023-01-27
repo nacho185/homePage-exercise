@@ -88,14 +88,53 @@ body {
   margin-top: 80px;
 }
 .section03-mainpage-section03 .fontAnd-discriptions-container .fontAnd-discriptions .fontAnd-description-header {
-  font-size: 20px;
+  font-size: 25px;
   margin: 25px 0 25px 0;
 }
 .section03-mainpage-section03 .fontAnd-discriptions-container .fontAnd-discriptions .fontAnd-description-paragrapht {
   font-size: 15px;
   margin-bottom: 100px;
 }
-
+.section03-mainpage-section03 .imageAnd-paragraph-section03 {
+  display: grid;
+  margin: 0 auto;
+  width: 80%;
+}
+.section03-mainpage-section03 .imageAnd-paragraph-section03 .imageAndparagraph-pair {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "a b b b b" "c c c c d";
+  margin-top: 100px;
+  justify-items: center;
+  /*img samething just different classes to set them apart*/
+  /*img samething just different classes to set them apart End*/
+  /*container samething just different classes to set them apart End*/
+  /* container samething just different classes to set them apart End*/
+}
+.section03-mainpage-section03 .imageAnd-paragraph-section03 .imageAndparagraph-pair .section03div2-img {
+  height: 300px;
+  width: auto;
+}
+.section03-mainpage-section03 .imageAnd-paragraph-section03 .imageAndparagraph-pair .section03div2-img1 {
+  grid-area: a;
+  align-self: center;
+}
+.section03-mainpage-section03 .imageAnd-paragraph-section03 .imageAndparagraph-pair .section03div2-img2 {
+  grid-area: d;
+  align-self: center;
+}
+.section03-mainpage-section03 .imageAnd-paragraph-section03 .imageAndparagraph-pair .section3Header-and-paragraph1 {
+  grid-area: b;
+  align-self: center;
+}
+.section03-mainpage-section03 .imageAnd-paragraph-section03 .imageAndparagraph-pair .section3Header-and-paragraph2 {
+  grid-area: c;
+  align-self: center;
+}
+.section03-mainpage-section03 .imageAnd-paragraph-section03 .imageAndparagraph-pair .section3Header-and-paragraph .section03Header-and-paragraph-header {
+  margin-bottom: 20px;
+  font-size: 25px;
+}
 @media (max-width: 700px) {
   .checkbtn {
     display: block !important;

@@ -107,7 +107,7 @@ body{
                 margin-top: 80px;
             }
             .fontAnd-description-header{
-                font-size: 20px;
+                font-size: 25px;
                 margin: 25px 0 25px 0;
             }
             .fontAnd-description-paragrapht{
@@ -116,6 +116,63 @@ body{
             }
         }
     }
+
+    //section03 div 2
+.imageAnd-paragraph-section03{
+    display: grid;
+    margin: 0 auto;
+    width: 80%;
+    .imageAndparagraph-pair{
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       
+       grid-template-areas:
+    "a b b b b"
+    "c c c c d";
+        margin-top: 100px ;
+        justify-items: center;
+       
+        /*img samething just different classes to set them apart*/
+        .section03div2-img{
+            height: 300px;
+            width: auto;
+        }
+        .section03div2-img1{
+            grid-area: a;
+            align-self: center;
+
+        }
+        .section03div2-img2{
+            grid-area: d;
+            align-self: center;
+            
+        }
+                /*img samething just different classes to set them apart End*/
+
+        /*container samething just different classes to set them apart End*/
+        .section3Header-and-paragraph1{
+            grid-area: b;
+            align-self: center;
+
+           
+        }       
+        .section3Header-and-paragraph2{
+            grid-area: c;
+            align-self: center;
+        }       
+        .section3Header-and-paragraph{      
+            .section03Header-and-paragraph-header{
+                margin-bottom: 20px;
+                font-size: 25px;    
+            }
+            .section03Header-and-paragraph-paragraph{ 
+            }
+        }
+        /* container samething just different classes to set them apart End*/
+
+    }
+    }
+    //section03 div 2END
 }
 //section03-mainpage-section03END
 
