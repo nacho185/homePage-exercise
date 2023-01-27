@@ -416,6 +416,18 @@ p{
     .section03Header-and-paragraph-paragraph{
         font-size: 14px;
     }
+    
+    .icons-section06-and-summary{
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+    }
+    .testimonials-section06{
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+    }
+    .doe-testimonials{
+        display: none !important;
+    }
 }
 @media(max-width:460px){
     .section03div2-img{
