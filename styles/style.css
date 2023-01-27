@@ -3,13 +3,21 @@
   margin: 0;
 }
 
+h2 {
+  color: #333;
+}
+
 body {
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
 
+a {
+  cursor: pointer;
+}
+
 .navbarContainer {
-  background-color: #555;
+  background-color: #444;
   padding: 15px 0 15px 0;
   display: flex;
   flex-direction: row;
@@ -55,6 +63,9 @@ body {
   width: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/shaking hands-min.jpg");
   background-size: cover;
+}
+.homePage-container p {
+  color: #555;
 }
 .homePage-container .marginDiv {
   margin-top: 25vh;
@@ -135,6 +146,152 @@ body {
   margin-bottom: 20px;
   font-size: 25px;
 }
+.section03-mainpage-section03 p {
+  color: #555;
+}
+
+.createSomething-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/images/businessmen-min.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  background-position: center;
+  color: #fff;
+}
+.createSomething-section .just-container-for-create-something {
+  margin: 0 auto;
+  width: 80%;
+  padding-top: 100px;
+}
+.createSomething-section .just-container-for-create-something .headerAnd-paragraph-create-something {
+  margin-bottom: 40px;
+  text-align: left;
+}
+.createSomething-section .just-container-for-create-something .headerAnd-paragraph-create-something h1 {
+  font-size: 30px;
+}
+.createSomething-section .just-container-for-create-something .headerAnd-paragraph-create-something p {
+  font-size: 15px;
+}
+.createSomething-section .just-container-for-create-something .contactuslink-createsomething a {
+  text-decoration: none;
+  border: 2px solid;
+  color: #fff;
+  border-color: #fff;
+  padding: 8px 18px;
+  border-radius: 8px;
+}
+
+.section06-testimonial-and-plan-section {
+  margin: 100px 0 40px 0;
+}
+.section06-testimonial-and-plan-section .ContainerFor-icons-section06-and-summary {
+  margin: 0 auto;
+  width: 90%;
+}
+.section06-testimonial-and-plan-section .ContainerFor-icons-section06-and-summary .icons-section06-and-summary {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 100px;
+}
+.section06-testimonial-and-plan-section .ContainerFor-icons-section06-and-summary .icons-section06-and-summary .iconsSection05-and-its-title {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.section06-testimonial-and-plan-section .ContainerFor-icons-section06-and-summary .icons-section06-and-summary .iconsSection05-and-its-title .icon-and-title-sec06 .icong-and-title-sec06-img {
+  height: 100px;
+  width: auto;
+  margin-bottom: 40px;
+}
+.section06-testimonial-and-plan-section .ContainerFor-icons-section06-and-summary .icons-section06-and-summary .iconsSection05-and-its-title .icon-and-title-sec06 .icon-and-title-sec06-title {
+  font-weight: 900;
+  color: #9c7d5d;
+}
+.section06-testimonial-and-plan-section .ContainerFor-icons-section06-and-summary .testimonials-section06 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 70px;
+  margin-bottom: 50px;
+}
+.section06-testimonial-and-plan-section .ContainerFor-icons-section06-and-summary .testimonials-section06 .imageAnd-text-section06 h2 {
+  margin-bottom: 40px;
+}
+.section06-testimonial-and-plan-section .ContainerFor-icons-section06-and-summary .testimonials-section06 .imageAnd-text-section06 .quotationmarks-sec06 {
+  width: 60px;
+  transform: rotate(180deg);
+  opacity: 0.5;
+}
+.section06-testimonial-and-plan-section .ContainerFor-icons-section06-and-summary .testimonials-section06 .textOver-sec06-quotations {
+  font-size: 15px;
+  position: relative;
+  bottom: 25px;
+  left: 10px;
+}
+.section06-testimonial-and-plan-section .ContainerFor-icons-section06-and-summary .twotestimonial-image-and-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.section06-testimonial-and-plan-section .ContainerFor-icons-section06-and-summary .twotestimonial-image-and-info .doe-testimonials {
+  display: flex;
+  flex-direction: row;
+}
+.section06-testimonial-and-plan-section .ContainerFor-icons-section06-and-summary .twotestimonial-image-and-info .doe-testimonials .doereview-img {
+  margin-right: 20px;
+}
+.section06-testimonial-and-plan-section .ContainerFor-icons-section06-and-summary .twotestimonial-image-and-info .doe-testimonials .doereview-img1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/images/female headshot-min.jpg");
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+  width: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.section06-testimonial-and-plan-section .ContainerFor-icons-section06-and-summary .twotestimonial-image-and-info .doe-testimonials .doereview-img2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/images/male headshot-min.jpg");
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+  width: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.section06-testimonial-and-plan-section p {
+  color: #555;
+}
+
+.section04-container {
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/climbing stairs-min.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  background-position: center;
+  color: #fff;
+  justify-content: center;
+}
+.section04-container .headerAnd-contact-butttons .headerAnd-paragraph-sections04 {
+  padding-top: 320px;
+}
+.section04-container .headerAnd-contact-butttons .headerAnd-paragraph-sections04 h1 {
+  font-size: 32px;
+}
+.section04-container .contact-button {
+  margin-top: 30px;
+}
+.section04-container .contact-button a {
+  background-color: transparent;
+  padding: 8px 18px;
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
 @media (max-width: 1280px) {
   .imageAnd-paragraph-section03 {
     display: grid !important;
