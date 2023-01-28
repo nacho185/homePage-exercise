@@ -15,6 +15,32 @@ body{
 a{
     cursor: pointer;
 }
+//
+//scroll bar
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+   
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:#9c7d5d;
+    border-radius: 20px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+//end scroll bar 
 //end global
 //navbar
 
@@ -59,6 +85,11 @@ a{
                         a{
                             text-decoration: none;
                             color: #ddd;
+                            padding: 10px 5px;
+                            &:hover{
+                                border-bottom: 2px solid #fff;
+                                transition: .2s;
+                            }
                         }
                     }
                 }
