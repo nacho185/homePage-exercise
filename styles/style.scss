@@ -369,6 +369,37 @@ p{
 }
 //section04 END 
 
+//footer start
+
+.ourbrand{
+    padding:80px 0;
+    background-color: #555;
+    .ourbrand-container{
+       
+        text-align: center;
+        .socialmedia-links{
+            padding-bottom: 30px;
+            a{
+                text-decoration: none;
+                color: #888;
+                font-size: 22px;
+                .fa{
+                    margin-right: 20px;
+                }
+            }
+        }
+        .rightsreserved{
+            color: #888;
+            h1{
+                font-size: 15px;
+            }
+            p{
+                font-size: 15px;
+            }
+        }
+    }
+}
+//footer end
 //media queries
 
 //
